@@ -9,6 +9,7 @@ async function main() {
 
   const { data: gift } = await axios.post(`${serverUrl}/gift`, {
     // TODO: add request body parameters here!
+    chkName: 'Norman Block'
   });
 
   console.log({ gift });
